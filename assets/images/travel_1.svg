@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title description">
+  <title id="title">Lago entre montañas</title>
+  <desc id="description">Ilustración de un lago tranquilo entre montañas al amanecer.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7059b9"/>
+      <stop offset="1" stop-color="#f0a77d"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#427b9d"/>
+      <stop offset="1" stop-color="#173d59"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="360" fill="url(#sky)"/>
+  <circle cx="930" cy="135" r="72" fill="#ffd7a0" opacity=".9"/>
+  <path d="M0 390 245 145 430 345 650 90 945 380 1200 200 1200 470 0 470Z" fill="#283958"/>
+  <path d="M0 420 310 245 505 420 760 235 1000 420 1200 320 1200 500 0 500Z" fill="#42646a"/>
+  <rect y="420" width="1200" height="180" fill="url(#water)"/>
+  <path d="M100 492c230-36 380 38 590 2s330-24 510 3" fill="none" stroke="#b7d9dc" stroke-width="9" opacity=".5"/>
+</svg>

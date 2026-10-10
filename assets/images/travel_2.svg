@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title description">
+  <title id="title">Costa tropical</title>
+  <desc id="description">Ilustración de una playa tropical durante el atardecer.</desc>
+  <defs>
+    <linearGradient id="sunset" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5b4aa8"/>
+      <stop offset=".55" stop-color="#ee7f77"/>
+      <stop offset="1" stop-color="#ffc779"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#28a8b8"/>
+      <stop offset="1" stop-color="#075d78"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="370" fill="url(#sunset)"/>
+  <circle cx="820" cy="205" r="85" fill="#ffe5a8"/>
+  <rect y="360" width="1200" height="240" fill="url(#sea)"/>
+  <path d="M0 520c200-70 410-42 620 8 205 48 390 42 580-15v87H0Z" fill="#f0c98c"/>
+  <path d="M170 455c80-145 135-212 205-255-58 85-92 158-111 248Z" fill="#173d45"/>
+  <path d="M365 210c-118-60-186-47-246-8 89-6 145 15 209 62ZM380 223c79-92 151-102 220-84-85 24-131 55-184 119Z" fill="#205d4b"/>
+</svg>

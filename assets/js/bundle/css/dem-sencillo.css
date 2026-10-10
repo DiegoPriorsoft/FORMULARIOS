@@ -1,0 +1,41 @@
+.practice-panel {
+    max-width: 1050px;
+    margin-inline: auto;
+}
+
+#calendar {
+    min-height: 420px;
+}
+
+.fc .fc-toolbar {
+    gap: 0.75rem;
+}
+
+.fc .fc-toolbar-title {
+    font-size: clamp(1.05rem, 3vw, 1.5rem);
+}
+
+.destination-image {
+    height: 190px;
+    object-fit: cover;
+}
+
+.card {
+    overflow: hidden;
+}
+
+@media (max-width: 767.98px) {
+    .fc .fc-toolbar {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .fc .fc-toolbar-chunk {
+        display: flex;
+        justify-content: center;
+    }
+
+    .fc .btn-group {
+        flex-wrap: wrap;
+    }
+}
